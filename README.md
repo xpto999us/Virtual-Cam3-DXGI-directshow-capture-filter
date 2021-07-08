@@ -22,9 +22,8 @@ To uninstall: go to folders above and unregister dlls with:
 
 regsvr32 -u vcam3.dll
 and delete vcam3.dll.,
-
-Filter not have configuration or registry settings.
----------------
+          
+filter has no configuration files or regsitry settings. 
 Capture with minidlna-for-windows (cygwin mod version https://github.com/xpto999us/Minidlna-For-Windows-with-Transcoding):
 
 Check Virtual Cam3 alternative name (minidlna.conf command line do not accept white spaces): 
@@ -32,10 +31,6 @@ Check Virtual Cam3 alternative name (minidlna.conf command line do not accept wh
 ffmpeg -list_devices true -f dshow -i dummy > output.txt 2>&1
 
 Check output.txt for alternative name of Virtual Cam3 and copy to minidlna.conf
-
--see new minidlna.conf (#DESKTOP STREAMING) for details and command line.
-=============================================================================
-
-
+see new minidlna.conf (#DESKTOP STREAMING) for details and command line.
 
 
