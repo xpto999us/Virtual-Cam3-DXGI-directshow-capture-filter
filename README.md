@@ -24,8 +24,10 @@ regsvr32 -u vcam3.dll
 and delete vcam3.dll.,
           
 filter has no configuration files or regsitry settings. 
-Capture with minidlna-for-windows (cygwin mod version https://github.com/xpto999us/Minidlna-For-Windows-with-Transcoding):
+Capture with virtualdub2 or minidlna-for-windows (cygwin mod version https://github.com/xpto999us/Minidlna-For-Windows-with-Transcoding
+For ffmpeg capture download version 4.4, not version 5 (audio out of sync).
 
+minidlna:
 Check Virtual Cam3 alternative name (minidlna.conf command line do not accept white spaces): 
 
 ffmpeg -list_devices true -f dshow -i dummy > output.txt 2>&1
