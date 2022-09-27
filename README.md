@@ -35,4 +35,5 @@ ffmpeg -list_devices true -f dshow -i dummy > output.txt 2>&1
 Check output.txt for alternative name of Virtual Cam3 and copy to minidlna.conf
 see new minidlna.conf (#DESKTOP STREAMING) for details and command line.
 
+Program crash (ffmpeg, virtualdub, minidlna,etc) at end of capture: Run program with windows "compatibility mode" Windows 8.
 
